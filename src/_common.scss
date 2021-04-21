@@ -46,6 +46,10 @@ h3,
     display: flex;
 }
 
+.justify-center {
+    justify-content: center;
+}
+
 .flex-end {
     justify-content: flex-end;
 }
@@ -54,7 +58,7 @@ h3,
     justify-content: space-between;
 }
 
-.flex-align-center {
+.align-center {
     align-items: center;
 }
 
@@ -112,8 +116,15 @@ h3,
     @include border-radius(5px);
 }
 
-.ms-sign-up-by-email:hover {
-    font-weight: 700;
+.ms-sign-up-by-email {
+    p {
+        margin: 0 5px 5px 0;
+        display: inline-block;
+    }
+
+    &:hover {
+        font-weight: 700;
+    }
 }
 
 .ms-learn-more-button {

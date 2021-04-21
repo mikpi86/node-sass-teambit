@@ -78,3 +78,61 @@
     }
 }
 /* END how it works section */
+
+/* co-founders section */
+.co-founders-section {
+    .title-with-icon,
+    .happy-icon {
+        display: inline-block;
+    }
+
+    .happy-icon {
+        margin: 0 10px;
+    }
+
+    .co-founders-text-box {
+        width: 700px;
+        border: 2px solid $blue;
+        background-color: $white;
+        @include border-radius(10px);
+        padding: 20px;
+        margin: 60px 0;
+        position: relative;
+
+        p {
+            text-align: justify;
+            margin-bottom: 20px;
+        }
+
+        .co-founders-photos-box,
+        .co-founders-info-box {
+            text-align: left;
+            display: inline-block;
+        }
+
+        .co-founders-photos-box {
+            img {
+                display: inline-block;
+                margin-right: 10px;
+            }
+        }
+        .co-founders-info-box {
+            #names {
+                color: $blue;
+                margin-bottom: 5px;
+            }
+            p {
+                margin-bottom: 0;
+            }
+        }
+
+        #quotes-icon {
+            font-size: 2em;
+            color: $blue;
+            position: absolute;
+            top: -13px;
+            left: -5px;
+        }
+    }
+}
+/* END co-founders section */

@@ -45,6 +45,10 @@ h3,
   display: flex;
 }
 
+.justify-center {
+  justify-content: center;
+}
+
 .flex-end {
   justify-content: flex-end;
 }
@@ -53,7 +57,7 @@ h3,
   justify-content: space-between;
 }
 
-.flex-align-center {
+.align-center {
   align-items: center;
 }
 
@@ -109,6 +113,10 @@ h3,
   -moz-border-radius: 5px;
 }
 
+.ms-sign-up-by-email p {
+  margin: 0 5px 5px 0;
+  display: inline-block;
+}
 .ms-sign-up-by-email:hover {
   font-weight: 700;
 }
@@ -177,10 +185,6 @@ header .hero {
 header .hero-left,
 header .hero-right {
   width: 50%;
-}
-header .hero-left .ms-sign-up-by-email p {
-  margin: 0 5px 5px 0;
-  display: inline-block;
 }
 header .hero-right img {
   width: 100%;
@@ -257,3 +261,51 @@ header .hero-right img {
 }
 
 /* END how it works section */
+/* co-founders section */
+.co-founders-section .title-with-icon,
+.co-founders-section .happy-icon {
+  display: inline-block;
+}
+.co-founders-section .happy-icon {
+  margin: 0 10px;
+}
+.co-founders-section .co-founders-text-box {
+  width: 700px;
+  border: 2px solid #2c4792;
+  background-color: #ffffff;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  padding: 20px;
+  margin: 60px 0;
+  position: relative;
+}
+.co-founders-section .co-founders-text-box p {
+  text-align: justify;
+  margin-bottom: 20px;
+}
+.co-founders-section .co-founders-text-box .co-founders-photos-box,
+.co-founders-section .co-founders-text-box .co-founders-info-box {
+  text-align: left;
+  display: inline-block;
+}
+.co-founders-section .co-founders-text-box .co-founders-photos-box img {
+  display: inline-block;
+  margin-right: 10px;
+}
+.co-founders-section .co-founders-text-box .co-founders-info-box #names {
+  color: #2c4792;
+  margin-bottom: 5px;
+}
+.co-founders-section .co-founders-text-box .co-founders-info-box p {
+  margin-bottom: 0;
+}
+.co-founders-section .co-founders-text-box #quotes-icon {
+  font-size: 2em;
+  color: #2c4792;
+  position: absolute;
+  top: -13px;
+  left: -5px;
+}
+
+/* END co-founders section */
