@@ -4,29 +4,74 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- link al font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+    <!-- link al google fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap" rel="stylesheet">
+    <!-- link al css -->
     <link rel="stylesheet" href="dist/app.css">
+
     <title>Teambit</title>
 </head>
 <body>
     <header>
         <div class="ms-wrapper">
             
-            <div class="header-top">
-                <!-- logo e hamburger -->
+            <div class="header-top flex flex-align-center">
+                <!-- logo-->
+                <div class="header-logo">
+                    <img src="img/logo.svg" alt="Teambit logo">
+                </div>
+                <!-- menu -->
+                <ul class="header-menu flex flex-end flex-align-center">
+                    <li>
+                        solutions
+                        <i class="fas fa-chevron-down"></i>
+                    </li>
+                    <li>pricing</li>
+                    <li>blog</li>
+                    <li>sign in</li>
+                    <li>
+                        <div class="ms-button-google-big-white flex">
+                            <img src="img/google-logo.svg" alt="Google logo">
+                            <span>sign up</span>
+                        </div>
+                    </li>
+                </ul>
             </div> <!-- chiusura header top -->
     
-            <div class="hero">
+            <div class="hero clearfix">
     
-                <div class="hero-left">
-                    <h1></h1>
-                    <h2></h2>
-                    <div class="ms-button"></div>
-                    <div class="ms-button"></div>
-                    <p></p>
+                <div class="hero-left float">
+                    <h1>Understand, recognize and develop your people</h1>
+                    <h2>Teambit helps teams create a high performing culture with regular feedback.</h2>
+
+                    <div class="hero-buttons-row">
+                        <!-- button google -->
+                        <div class="ms-button-blue ms-button-margins flex">
+                            <img src="img/google-logo.svg" alt="Google logo">
+                            <span>Sign up with Google</span>
+                        </div>
+    
+                        <span>or</span>
+    
+                        <!-- button slack -->
+                        <div class="ms-button-blue ms-button-margins flex">
+                            <img src="img/slack-logo.svg" alt="Slack logo">
+                            <span>Sign up with Slack</span>
+                        </div>
+                    </div> <!-- chiusura hero buttons row -->
+                    
+                    <div class="ms-sign-up-by-email ms-sign-up-by-email-margins">
+                        <p>or use your email address</p>
+                        <i class="fas fa-arrow-right"></i>
+                    </div>
+
                 </div> <!-- chiusura hero left -->
     
-                <div class="hero-right">
-                    <img src="" alt="">
+                <div class="hero-right float">
+                    <img src="img/illustration-main.jpg" alt="illustration">
                 </div> <!-- chiusura hero right -->
     
             </div> <!-- chiusura hero -->
@@ -35,21 +80,21 @@
     </header>
 
     <main>
-        <section>
+        <section class="background_primary">
             <div class="ms-wrapper">
-
+                test
             </div> <!-- chiusura ms-wrapper -->
         </section>
         <section>
-
+            test
         </section>
-        <section>
-
+        <section class="background_primary">
+            test
         </section>
     </main>
 
     <footer>
-
+        test
     </footer>
 </body>
 </html>

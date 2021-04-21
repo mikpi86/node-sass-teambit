@@ -3,3 +3,117 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+ /* gestione fonts */
+body {
+    font-size: $font_size_base;
+    font-family: $font_lato;
+    color: $brown;
+
+    h1 {
+        font-size: 2.8em;
+    }
+}
+/* END gestione fonts */
+
+/* gestione posizionamento */
+.ms-wrapper {
+    width: 90%;
+    margin: 0 auto;
+}
+
+h1,
+h2,
+h3,
+.ms-button-margins {
+    margin-bottom: 20px;
+}
+
+.ms-sign-up-by-email-margins {
+    margin: 5px 0;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.flex-end {
+    justify-content: flex-end;
+}
+
+.flex-align-center {
+    align-items: center;
+}
+
+.float {
+    float: left;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+/* END gestione posizionamento */
+
+li {
+    list-style: none;
+    text-transform: capitalize;
+    font-weight: 700;
+    cursor: pointer;
+
+    &:hover {
+        color: $blue;
+    }
+}
+
+/* gestione buttons */
+.ms-button-google-big-white {
+    padding: 10px;
+    border: 2px solid $blue;
+    color: $blue;
+    
+    img {
+        width: 2em;
+        padding-right: 10px;
+    }
+
+    &:hover {
+        box-shadow: 0 0 1px 1px;
+        background-color: $lightblue;
+    }
+}
+
+.ms-button-blue {
+    padding: 5px 10px;
+    text-align: center;
+    background-color: $blue;
+    color: $white;
+    display: inline-block;
+
+    img {
+        width: 1.8em;
+        padding-right: 10px;
+    }
+
+    &:hover {
+        background-color: $darkblue;
+    }
+}
+
+.ms-button-google-big-white,
+.ms-button-blue {
+    @include border-radius(5px);
+}
+
+.ms-sign-up-by-email:hover {
+    font-weight: 700;
+}
+
+.ms-button-google-big-white,
+.ms-button-blue,
+.ms-sign-up-by-email {
+    cursor: pointer;
+}
+/* END gestione buttons */

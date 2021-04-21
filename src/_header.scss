@@ -1,0 +1,51 @@
+header {
+    width: 100%;
+
+    .header-top,
+    .hero {
+        width: 100%;
+    }
+
+    .header-top {
+        height: 70px;
+        padding: 20px 0;
+        border-bottom: 1px solid $brown;
+
+
+        .header-logo {
+            width: 20%;
+        }
+
+        .header-menu {
+            width: 80%;
+
+            li {
+                padding-left: 20px;
+            }
+        }
+    }
+
+    .hero {
+        padding: 40px 0;
+    }
+
+    .hero-left,
+    .hero-right {
+        width: 50%;
+    }
+
+    .hero-left {
+        .ms-sign-up-by-email {
+            p {
+                margin: 0 5px 5px 0;
+                display: inline-block;
+            }
+        }
+    }
+
+    .hero-right {
+        img {
+            width: 100%;
+        }
+    }
+}
