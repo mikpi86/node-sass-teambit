@@ -13,6 +13,15 @@ body {
     h1 {
         font-size: 2.8em;
     }
+
+    h2 {
+        font-size: 1.2em;
+        font-weight: 400;
+    }
+
+    h3 {
+        font-size: 1.3em;
+    }
 }
 /* END gestione fonts */
 
@@ -35,11 +44,14 @@ h3,
 
 .flex {
     display: flex;
-    align-items: center;
 }
 
 .flex-end {
     justify-content: flex-end;
+}
+
+.space-between {
+    justify-content: space-between;
 }
 
 .flex-align-center {
@@ -87,7 +99,6 @@ li {
 
 .ms-button-blue {
     padding: 5px 10px;
-    text-align: center;
     background-color: $blue;
     color: $white;
     display: inline-block;
@@ -95,6 +106,7 @@ li {
     img {
         width: 1.8em;
         padding-right: 10px;
+        display: inline-block;
     }
 
     &:hover {

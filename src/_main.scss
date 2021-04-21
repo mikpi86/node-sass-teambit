@@ -1,3 +1,51 @@
 .background_primary {
     background-color: $brand_primary;
 }
+
+.overview-before,
+.overview-after,
+.how-it-works-section,
+.co-founders-section {
+    padding: 40px 0;
+}
+
+.overview-section,
+.co-founders-section {
+    text-align: center;
+}
+
+.overview-before {
+    border-bottom: 1px solid $brown;
+
+    .before-img {
+        width: 25%;
+        padding: 40px 0;
+    }
+}
+
+.overview-after {
+    h3 {
+        padding-top: 40px;
+    }
+
+    .after-img {
+        width: 25%;
+        padding: 40px 0;
+    }
+}
+
+.overview-before-img-container,
+.overview-after-img-container {
+    width: 100%;
+
+    .card {
+        width: 30%;
+        height: 200px;
+        padding: 20px 0;
+
+        img {
+            height: 50%;
+            margin-bottom: 20px;
+        }
+    }
+}
