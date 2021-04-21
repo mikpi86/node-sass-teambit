@@ -2,6 +2,7 @@
     background-color: $brand_primary;
 }
 
+/* overview section */
 .overview-before,
 .overview-after,
 .how-it-works-section,
@@ -49,3 +50,31 @@
         }
     }
 }
+/* END overview section */
+
+/* how it works section */
+.how-it-works-section {
+    width: 100%;
+    padding: 40px;
+
+    .how-it-works-row {
+        width: 100%;
+        height: 500px;
+
+        .left-side,
+        .right-side {
+            padding: 0 20px;
+        }
+
+        .big-image {
+            height: 80%;
+        }
+
+        .text-container {
+            img {
+                width: 80%;
+            }
+        }
+    }
+}
+/* END how it works section */

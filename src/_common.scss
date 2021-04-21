@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
- /* gestione fonts */
+/* gestione fonts */
 body {
     font-size: $font_size_base;
     font-family: $font_lato;
@@ -58,8 +58,12 @@ h3,
     align-items: center;
 }
 
-.float {
+.float-left {
     float: left;
+}
+
+.float-right {
+    float: right;
 }
 
 .clearfix::after {
@@ -68,17 +72,6 @@ h3,
     display: table;
 }
 /* END gestione posizionamento */
-
-li {
-    list-style: none;
-    text-transform: capitalize;
-    font-weight: 700;
-    cursor: pointer;
-
-    &:hover {
-        color: $blue;
-    }
-}
 
 /* gestione buttons */
 .ms-button-google-big-white {
@@ -90,7 +83,7 @@ li {
         width: 2em;
         padding-right: 10px;
     }
-
+    
     &:hover {
         box-shadow: 0 0 1px 1px;
         background-color: $lightblue;
@@ -102,13 +95,13 @@ li {
     background-color: $blue;
     color: $white;
     display: inline-block;
-
+    
     img {
         width: 1.8em;
         padding-right: 10px;
         display: inline-block;
     }
-
+    
     &:hover {
         background-color: $darkblue;
     }
@@ -123,9 +116,42 @@ li {
     font-weight: 700;
 }
 
+.ms-learn-more-button {
+    color: $blue;
+    margin: 20px 0;
+
+    p {
+        display: inline-block;
+    }
+
+    &:hover {
+    font-weight: bold;
+    }
+}
+
 .ms-button-google-big-white,
 .ms-button-blue,
-.ms-sign-up-by-email {
+.ms-sign-up-by-email,
+.ms-learn-more-button {
     cursor: pointer;
 }
 /* END gestione buttons */
+
+/* gestione altri elementi */
+li {
+    list-style: none;
+    text-transform: capitalize;
+    font-weight: 700;
+    cursor: pointer;
+
+    &:hover {
+        color: $blue;
+    }
+}
+/* END gestione altri elementi */
+
+/* gestione dimensioni blocchi */
+.w-50 {
+    width: 50%;
+}
+/* END gestione dimensione blocchi */
