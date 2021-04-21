@@ -132,6 +132,7 @@ h3,
   font-weight: bold;
 }
 
+.header-logo,
 .ms-button-google-big-white,
 .ms-button-blue,
 .ms-sign-up-by-email,
@@ -309,3 +310,36 @@ header .hero-right img {
 }
 
 /* END co-founders section */
+footer {
+  width: 100%;
+  padding: 40px 0;
+}
+
+.footer-left {
+  width: 40%;
+  padding-right: 40px;
+}
+.footer-left img,
+.footer-left .text-logo-side {
+  display: inline-block;
+}
+.footer-left img {
+  width: 80%;
+  margin-right: 10px;
+}
+.footer-left .brand {
+  color: #2c4792;
+}
+.footer-left span {
+  font-weight: bold;
+}
+
+.footer-right {
+  width: 60%;
+}
+.footer-right ul {
+  margin-right: 80px;
+}
+.footer-right ul li {
+  text-transform: none;
+}

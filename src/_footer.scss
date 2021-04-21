@@ -1,0 +1,39 @@
+footer {
+    width: 100%;
+    padding: 40px 0;
+}
+
+.footer-left {
+    width: 40%;
+    padding-right: 40px;
+
+    img,
+    .text-logo-side {
+        display: inline-block;
+    }
+
+    img {
+        width: 80%;
+        margin-right: 10px;
+    }
+
+    .brand {
+        color: $blue;
+    }
+
+    span {
+        font-weight: bold;
+    }
+}
+
+.footer-right {
+    width: 60%;
+
+    ul {
+        margin-right: 80px;
+
+        li {
+            text-transform: none;
+        }
+    }
+}
