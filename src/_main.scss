@@ -16,7 +16,7 @@
 }
 
 .overview-before {
-    border-bottom: 1px solid $brown;
+    border-bottom: 1px solid $brand_color_font;
 
     .before-img {
         width: 25%;
@@ -92,8 +92,8 @@
 
     .co-founders-text-box {
         width: 700px;
-        border: 2px solid $blue;
-        background-color: $white;
+        border: 2px solid $brand_secondary;
+        background-color: button_small_color_text;
         @include border-radius(10px);
         padding: 20px;
         margin: 60px 0;
@@ -118,7 +118,7 @@
         }
         .co-founders-info-box {
             #names {
-                color: $blue;
+                color: $brand_secondary;
                 margin-bottom: 5px;
             }
             p {
@@ -128,7 +128,7 @@
 
         #quotes-icon {
             font-size: 2em;
-            color: $blue;
+            color: $brand_secondary;
             position: absolute;
             top: -13px;
             left: -5px;

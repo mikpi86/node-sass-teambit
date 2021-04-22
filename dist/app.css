@@ -81,37 +81,37 @@ h5,
 
 /* END gestione posizionamento */
 /* gestione buttons */
-.ms-button-google-big-white {
+.ms-button-big {
   padding: 10px;
   border: 2px solid #2c4792;
   color: #2c4792;
 }
-.ms-button-google-big-white img {
+.ms-button-big img {
   width: 2em;
   padding-right: 10px;
 }
-.ms-button-google-big-white:hover {
+.ms-button-big:hover {
   box-shadow: 0 0 1px 1px;
   background-color: #a6b4db;
 }
 
-.ms-button-blue {
+.ms-button-small {
   padding: 5px 10px;
   background-color: #2c4792;
   color: #ffffff;
   display: inline-block;
 }
-.ms-button-blue img {
+.ms-button-small img {
   width: 1.8em;
   padding-right: 10px;
   display: inline-block;
 }
-.ms-button-blue:hover {
+.ms-button-small:hover {
   background-color: #1b316d;
 }
 
-.ms-button-google-big-white,
-.ms-button-blue {
+.ms-button-big,
+.ms-button-small {
   border-radius: 5px;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
@@ -137,8 +137,8 @@ h5,
 }
 
 .header-logo,
-.ms-button-google-big-white,
-.ms-button-blue,
+.ms-button-big,
+.ms-button-small,
 .ms-sign-up-by-email,
 .ms-learn-more-button {
   cursor: pointer;
@@ -277,7 +277,7 @@ header .hero-right img {
 .co-founders-section .co-founders-text-box {
   width: 700px;
   border: 2px solid #2c4792;
-  background-color: #ffffff;
+  background-color: button_small_color_text;
   border-radius: 10px;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;

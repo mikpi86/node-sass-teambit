@@ -8,7 +8,7 @@
 body {
     font-size: $font_size_base;
     font-family: $font_lato;
-    color: $brown;
+    color: $brand_color_font;
 
     h1 {
         font-size: 2.8em;
@@ -83,10 +83,10 @@ h5,
 /* END gestione posizionamento */
 
 /* gestione buttons */
-.ms-button-google-big-white {
+.ms-button-big {
     padding: 10px;
-    border: 2px solid $blue;
-    color: $blue;
+    border: 2px solid $brand_secondary;
+    color: $brand_secondary;
     
     img {
         width: 2em;
@@ -95,14 +95,14 @@ h5,
     
     &:hover {
         box-shadow: 0 0 1px 1px;
-        background-color: $lightblue;
+        background-color: $button_big_bgcolor_on_hover;
     }
 }
 
-.ms-button-blue {
+.ms-button-small {
     padding: 5px 10px;
-    background-color: $blue;
-    color: $white;
+    background-color: $brand_secondary;
+    color: $button_small_color_text;
     display: inline-block;
     
     img {
@@ -112,12 +112,12 @@ h5,
     }
     
     &:hover {
-        background-color: $darkblue;
+        background-color: $button_small_bgcolor_on_hover;
     }
 }
 
-.ms-button-google-big-white,
-.ms-button-blue {
+.ms-button-big,
+.ms-button-small {
     @include border-radius(5px);
 }
 
@@ -133,7 +133,7 @@ h5,
 }
 
 .ms-learn-more-button {
-    color: $blue;
+    color: $brand_secondary;
     margin: 20px 0;
 
     p {
@@ -146,8 +146,8 @@ h5,
 }
 
 .header-logo,
-.ms-button-google-big-white,
-.ms-button-blue,
+.ms-button-big,
+.ms-button-small,
 .ms-sign-up-by-email,
 .ms-learn-more-button {
     cursor: pointer;
@@ -162,7 +162,7 @@ li {
     cursor: pointer;
 
     &:hover {
-        color: $blue;
+        color: $brand_secondary;
     }
 }
 /* END gestione altri elementi */
