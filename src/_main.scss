@@ -93,7 +93,7 @@
     .co-founders-text-box {
         width: 700px;
         border: 2px solid $brand_secondary;
-        background-color: button_small_color_text;
+        background-color: $white;
         @include border-radius(10px);
         padding: 20px;
         margin: 60px 0;
